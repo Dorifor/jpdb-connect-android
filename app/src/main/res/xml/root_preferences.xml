@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:key="api_key"
+            app:title="@string/api_key_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:key="deck_id"
+            app:title="@string/deck_id_title"
+            app:useSimpleSummaryProvider="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

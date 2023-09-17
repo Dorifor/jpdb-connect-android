@@ -28,8 +28,7 @@ Lately I've been using my phone / tablet a lot for immersion, using the wonderfu
   
 > 👨‍💻 You don't have to start the app to use it every time, just for the initial setup
 
-![screenshot](https://github.com/Dorifor/jpdb-connect-android/assets/28139590/8d45fc75-cb9a-4d33-b134-18b2c52c36d3)![screenshot2](https://github.com/Dorifor/jpdb-connect-android/assets/28139590/d4400688-84ae-46a8-8091-d611dc08995d)
-
+![screenshot](https://github.com/Dorifor/jpdb-connect-android/assets/28139590/225518ac-0942-401a-b6bf-ca7711fcc8d8)
 
 ## 🧙‍♂️ Todo  
 * [ ] Add indications for fail / success

@@ -1,5 +1,5 @@
 # Jpdb Connect Android
-Android tool to mine selected words to jpdb.io (Text selection or Anki format sharing)
+Android tool to mine selected words to [jpdb.io](https://jpdb.io/) (Text selection or Anki format sharing)
 
 ## 🤨 Lore
 Lately I've been using my phone / tablet a lot for immersion, using the wonderful [Kanj Study](https://mindtwisted.com/) as my dictionary. I found it a bit of a shame that I couldn't really mine directly from it. So I made an "app" for that.

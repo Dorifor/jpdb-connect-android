@@ -30,6 +30,8 @@ Lately I've been using my phone / tablet a lot for immersion, using the wonderfu
 
 ![screenshot](https://github.com/Dorifor/jpdb-connect-android/assets/28139590/225518ac-0942-401a-b6bf-ca7711fcc8d8)
 
+![screenshot](https://github.com/Dorifor/jpdb-connect-android/blob/master/Screenshot_20230917_115926.jpg)
+
 ## 🧙‍♂️ Todo  
 * [ ] Add indications for fail / success
 * [ ] Add FORQ (Please Kou feed us with the API)

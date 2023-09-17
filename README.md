@@ -22,9 +22,11 @@ Lately I've been using my phone / tablet a lot for immersion, using the wonderfu
 1. Get your API Key from [the JPDB Settings page](https://jpdb.io/settings)
 2. Input it in the app (first input)
 3. Select your target deck for mining (It has to be created by you)
-4. Select any text by long pressing (**If you select multiple words, all of them will be added**)
-   1. Tap "Add to JPDB"  
+4. Select any text by long pressing (**If you select multiple words, all of them will be added**)  
+   1. Tap "Add to JPDB"
+ 
 OR  
+
 5. Select any word in Kanji Study (or any app that exports words to Anki / shares it) 
    1. "Share example" then select Jpdb Connect Android  
       OR

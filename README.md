@@ -46,7 +46,7 @@ OR
 <img src="https://github.com/Dorifor/jpdb-connect-android/assets/28139590/e5ed4a5f-0c1b-4a06-8e12-d780bc28aa83" width=400>
 </details>
 
-## Screenshots
+## 📸 Screenshots
 <details>
 <summary>Screenshots</summary>
    

@@ -33,6 +33,6 @@ Lately I've been using my phone / tablet a lot for immersion, using the wonderfu
 ![screenshot](https://github.com/Dorifor/jpdb-connect-android/blob/master/Screenshot_20230917_115926.jpg)
 
 ## 🧙‍♂️ Todo  
-* [ ] Add indications for fail / success
+* [x] Add indications for fail / success
 * [ ] Add FORQ (Please Kou feed us with the API)
 * [ ] Add a context menu from anywhere to mine selected text (maybe ?)

@@ -33,3 +33,4 @@ Lately I've been using my phone / tablet a lot for immersion, using the wonderfu
 ## 🧙‍♂️ Todo  
 * [ ] Add indications for fail / success
 * [ ] Add FORQ (Please Kou feed us with the API)
+* [ ] Add a context menu from anywhere to mine selected text (maybe ?)

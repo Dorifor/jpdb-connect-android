@@ -33,10 +33,24 @@ OR
   
 > 👨‍💻 You don't have to start the app to use it every time, just for the initial setup
 
+### 😳 Check this out 
+
+<img src="https://github.com/Dorifor/jpdb-connect-android/assets/28139590/cbdaa237-f32b-4918-80de-5e7cedaec6e2" width=400>
+
+#### Results 
+<details>
+<summary>JPDB Result</summary>
+
+<img src="https://github.com/Dorifor/jpdb-connect-android/assets/28139590/e5ed4a5f-0c1b-4a06-8e12-d780bc28aa83" width=400>
+</details>
+
+## Screenshots
 <details>
 <summary>Screenshots</summary>
-![screenshot](https://github.com/Dorifor/jpdb-connect-android/assets/28139590/225518ac-0942-401a-b6bf-ca7711fcc8d8)
-![screenshot](https://github.com/Dorifor/jpdb-connect-android/blob/master/Screenshot_20230917_115926.jpg)
+   
+<img src="https://github.com/Dorifor/jpdb-connect-android/assets/28139590/225518ac-0942-401a-b6bf-ca7711fcc8d8" width=600>
+   
+<img src="https://github.com/Dorifor/jpdb-connect-android/blob/master/Screenshot_20230917_115926.jpg" width=400>
 </details>  
 
 ## 🧙‍♂️ Todo  

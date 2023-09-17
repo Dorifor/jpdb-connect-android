@@ -8,6 +8,12 @@ Lately I've been using my phone / tablet a lot for immersion, using the wonderfu
 
 > I don't know how to make apps
 
+## 🐉 Installation
+
+1. Get the .apk file from [the latest release](https://github.com/Dorifor/jpdb-connect-android/releases/latest)
+2. Install it (You may have to turn on permissions to "install from unknown sources" since it's not from the Play Store)
+3. Profit
+
 ## 🐤 How to use
 
 

@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import com.android.volley.Request.Method
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
@@ -45,16 +46,18 @@ class JpdbIntentActivity : Activity() {
             val wordVid = ((response["vocabulary"] as JSONArray)[0] as JSONArray)[0]
             val wordSid = ((response["vocabulary"] as JSONArray)[0] as JSONArray)[1]
 
-            addToDeck(wordVid as Number, wordSid as Number)
+            addToDeck(wordVid as Number, wordSid as Number, word)
         }
     }
 
-    fun addToDeck(wordVid: Number, wordSid: Number) {
+    fun addToDeck(wordVid: Number, wordSid: Number, word: String) {
         val sharedPref = this.getSharedPreferences("jpdb_prefs", Context.MODE_PRIVATE)
         val deckId = sharedPref?.getString("target_deck_id", null)
 
         if (deckId == null) {
-//            TODO: Add toast to display an error like "hey chose a target deck or smth"
+            val toast = Toast.makeText(this, "You need to set a target deck in the settings.", Toast.LENGTH_SHORT)
+            toast.show()
+            return
         }
 
         val payloadString = "{\n" +
@@ -66,7 +69,8 @@ class JpdbIntentActivity : Activity() {
         Log.v("Jpdb", payloadJson.toString(4))
 
         sendRequest(Method.POST, "https://jpdb.io/api/v1/deck/add-vocabulary", payloadJson) { response ->
-            Log.v("Jpdb", "Word uploaded !")
+            val toast = Toast.makeText(this, "「$word」 added to target deck !", Toast.LENGTH_SHORT)
+            toast.show()
         }
     }
 
@@ -80,7 +84,9 @@ class JpdbIntentActivity : Activity() {
         val apiKey = sharedPref?.getString("api_key", null)
 
         if (apiKey == null) {
-//            TODO: Add toast to display an error like "hey put your api key or smth"
+            val toast = Toast.makeText(this, "You need to set your api key in the settings.", Toast.LENGTH_SHORT)
+            toast.show()
+            return
         }
 
         val queue = Volley.newRequestQueue(this)

@@ -1,4 +1,4 @@
-# jpdb-connect-android
+# Jpdb Connect Android
 Android tool to mine words from the Kanji Study app to jpdb.io
 
 ## 🤨 Lore

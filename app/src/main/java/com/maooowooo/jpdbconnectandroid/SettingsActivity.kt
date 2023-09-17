@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.EditTextPreference
 import androidx.preference.ListPreference
@@ -71,6 +72,8 @@ open class SettingsActivity : AppCompatActivity() {
                 },
                 { error ->
                     Log.e("Jpdb", error.toString())
+                    val toast = Toast.makeText(this.context, "Error: invalid API key.", Toast.LENGTH_LONG)
+                    toast.show()
                 }
             ) {
                 @Override
@@ -104,10 +107,12 @@ open class SettingsActivity : AppCompatActivity() {
             deckListPreference?.entries = deckListEntries.toTypedArray()
             deckListPreference?.entryValues = deckListEntryValues.toTypedArray()
 
+            deckListPreference?.isEnabled = true
+
             deckListPreference?.setOnPreferenceChangeListener { _, newValue ->
                 Log.v("Jpdb", "Chosen Deck: $newValue")
                 if (newValue != null) {
-                    deckListPreference?.summary =
+                    deckListPreference.summary =
                         deckListEntries[deckListEntryValues.indexOf(newValue)]
                     with(sharedPref.edit()) {
                         putString("target_deck_id", newValue.toString())

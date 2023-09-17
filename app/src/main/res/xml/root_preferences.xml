@@ -10,6 +10,7 @@
             app:useSimpleSummaryProvider="true" />
 
         <ListPreference
+            app:enabled="false"
             app:key="deck_id"
             app:title="@string/deck_id_title"
             app:useSimpleSummaryProvider="false" />
